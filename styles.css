@@ -1,0 +1,53 @@
+body {
+    font-family: 'Roboto', 'Courier New', Courier, monospace;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: #3882F6;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+}
+
+.header, .footer {
+    background-color: #1f2937;
+}
+
+.hero, .header a, button, p {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.header h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.header .upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.sign {
+    display: flex;
+    align-items: stretch;
+    padding: 36px;
+    margin-right: auto;
+    flex: 0 0 auto;
+}
