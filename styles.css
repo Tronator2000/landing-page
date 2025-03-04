@@ -56,7 +56,8 @@ ul {
 
 .upper, .sign {
     flex: auto;
-    width: 960px;
+    max-width: 960px;
+    width: 100%;
     margin: auto;
 }
 
