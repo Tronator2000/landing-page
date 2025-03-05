@@ -35,6 +35,7 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
 }
 
 .hero, .header a, p {
@@ -77,9 +78,35 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
 }
 
 .gallery {
     display: flex;
     gap: 16px;
+}
+
+.illustration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.illustration p{
+    color: #1f2937;
+    font-size: 18px;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.illustration img {
+    flex: 0 0 auto;
+    border: #3882F6 solid 5px;
+    border-radius: 16px;
 }
