@@ -55,7 +55,7 @@ ul {
     justify-content: space-between;
 }
 
-.upper, .sign, .content, .quote, .sign-up {
+.upper, .sign, .content, .quote-container, .sign-up {
     flex: auto;
     max-width: 960px;
     width: 100%;
@@ -117,21 +117,30 @@ h2 {
 
 .quote-container {
     background-color: #e5e7eb;
+    max-width: none;
     font-size: 36px;
     font-weight: 300;
     color: #1f2937;
-    padding: 160px;
+    padding: 160px 0;
+    gap: 0
 }
 
 .quote {
+    margin: 0;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
     max-width: 840px;
 }
 
 .author {
+    box-sizing: border-box;
     align-self: flex-end;
     font-weight: bold;
     font-size: 24px;
-    margin-top: -10px;
+    margin: 0;
 }
 
 .sign-up {
