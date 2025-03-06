@@ -122,3 +122,10 @@ h2 {
 .quote {
     max-width: 840px;
 }
+
+.author {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: -10px;
+}
